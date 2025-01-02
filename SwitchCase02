@@ -1,0 +1,17 @@
+package control;
+
+public class SwitchCaseTest02 {
+
+	public static void main(String[] args) {
+	    char num = 'B'; // '0' == 48, 'A' == 65
+	    // int 범위까지(byte, short, int), char
+		switch(num) { // 실수형, long 은 사용 불가
+		case 'A': System.out.println("삭제 기능 사용 가능");break;
+		case 66: System.out.println("제한게시글 사용 가능");break;
+		case 67: System.out.println("자유게시글 등록 가능");break;
+		default: System.out.println("댓글 사용 가능");
+		}
+
+	}
+
+}
