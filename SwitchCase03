@@ -1,0 +1,18 @@
+package control;
+
+public class SwitchCaseTest03 {
+
+	public static void main(String[] args) {
+		String str1 = new String("매니저"); // '0' == 48, 'A' == 65
+		// String str2 = "매니저";
+	    // int 범위까지(byte, short, int), char, 문자열 사용 가능
+		switch(str1) { // 실수형, long 은 사용 불가
+		case "매니저": System.out.println("삭제 기능 사용 가능");
+		case "멤버": System.out.println("제한게시글 사용 가능");
+		case "일반": System.out.println("자유게시글 등록 가능");
+		default: System.out.println("댓글 사용 가능");
+		}
+
+	}
+
+}
