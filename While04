@@ -1,16 +1,17 @@
 package loops;
 
-public class WhileTest05 {
+public class WhileTest04 {
 
 	public static void main(String[] args) {
 		// 1~10 숫자 중에 홀수만 출력
 		int i = 1;
-		while(true) {
-			if(i > 10) {
-				break;
+		while(i <= 10) {
+			if(i % 2 == 0) {
+				i++;
+				continue; // 조건식으로 보낸다.
 			}
 			System.out.println(i);
-			i += 2;
+			i++;
 		}
 
 	}
