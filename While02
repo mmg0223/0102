@@ -1,0 +1,22 @@
+package loops;
+
+public class WhileTest02 {
+
+	public static void main(String[] args) {
+		// 1부터 5까지 출력
+		int i = 1;
+		
+		/*
+		 * System.out.println(i); i++; System.out.println(i); i++;
+		 * System.out.println(i); i++; System.out.println(i); i++;
+		 * System.out.println(i); i++;
+		 */
+		
+		while(i <= 5) {
+			System.out.println(i);
+			i++;
+		}
+
+	}
+
+}
