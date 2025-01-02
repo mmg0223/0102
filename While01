@@ -1,0 +1,23 @@
+package loops;
+
+public class WhileTest01 {
+
+	public static void main(String[] args) {
+		// if(조건식) {}
+		// while(조건식) {} // 조건이 true 일 때 실행하고, 다시 조건을 확인함
+		/* System.out.println("안녕하세요");
+		 System.out.println("안녕하세요");
+		 System.out.println("안녕하세요");
+		 System.out.println("안녕하세요");
+		 System.out.println("안녕하세요"); */
+		
+		//3번 반복
+		int i = 0; // 1. 초기화 변수 선언
+		while(i < 3) { // 2. 조건식
+			System.out.println("안녕하세요");
+			++i; // 3. 증감문
+		}
+
+	}
+
+}
